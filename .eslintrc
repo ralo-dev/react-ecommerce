@@ -28,6 +28,12 @@
         "props": true,
         "ignorePropertyModificationsFor": ["accu"]
       }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
     ]
   }
 }
