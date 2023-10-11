@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* Common meta */}
-          <meta name="description" content="Shop the latest fashion online" />
+          <meta name="description" content="Tienda de joyería online" />
           <meta name="application-name" content="Faramilu" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
@@ -56,19 +56,19 @@ export default class MyDocument extends Document {
 
           {/* OG meta */}
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Spencer and Williams" />
+          <meta property="og:title" content="Faramilu" />
           <meta
             property="og:description"
-            content="Shop the latest fashion online"
+            content="Tienda de joyería y accesorios online"
           />
-          <meta property="og:site_name" content="Spencer and Williams" />
+          <meta property="og:site_name" content="Faramilu" />
           <meta
             property="og:url"
-            content="https://algolia-pwa-ecom-ui-template.netlify.app"
+            content="https://develop--cosmic-lamington-bef4bd.netlify.app"
           />
           <meta
             property="og:image"
-            content="https://algolia-pwa-ecom-ui-template.netlify.app/static/images/socials/og.png"
+            content="https://develop--cosmic-lamington-bef4bd.netlify.app/static/images/socials/logo_full_purple.png"
           />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
@@ -77,16 +77,16 @@ export default class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:url"
-            content="https://algolia-pwa-ecom-ui-template.netlify.app"
+            content="https://develop--cosmic-lamington-bef4bd.netlify.app/"
           />
-          <meta name="twitter:title" content="Spencer and Williams" />
+          <meta name="twitter:title" content="Faramilu" />
           <meta
             name="twitter:description"
-            content="Shop the latest fashion online"
+            content="Tienda de joyería y accesrios online"
           />
           <meta
             name="twitter:image"
-            content="https://algolia-pwa-ecom-ui-template.netlify.app/static/images/socials/twitter.png"
+            content="https://develop--cosmic-lamington-bef4bd.netlify.app/static/images/socials/logo_full_purple.png"
           />
 
           {/* Fonts */}
