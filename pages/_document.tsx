@@ -13,15 +13,12 @@ export default class MyDocument extends Document {
         <Head>
           {/* Common meta */}
           <meta name="description" content="Shop the latest fashion online" />
-          <meta name="application-name" content="Spencer and Williams" />
+          <meta name="application-name" content="Faramilu" />
           <meta
             name="apple-mobile-web-app-status-bar-style"
             content="default"
           />
-          <meta
-            name="apple-mobile-web-app-title"
-            content="Spencer and Williams"
-          />
+          <meta name="apple-mobile-web-app-title" content="Faramilu" />
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta

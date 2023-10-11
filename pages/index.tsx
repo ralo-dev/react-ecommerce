@@ -8,7 +8,7 @@ import {
   getStaticPropsPage,
   SearchPageLayout,
 } from '@/layouts/search-page-layout'
-import BannerImage from '@/public/static/images/home/banner.jpg'
+import BannerImage from '@/public/static/images/home/banner_alt.jpg'
 
 export default function Home(props: SearchPageLayoutProps) {
   return (
@@ -23,21 +23,41 @@ export default function Home(props: SearchPageLayoutProps) {
 
       <Banner
         size="xl"
-        title="New<br />Collection"
-        subtitle="Spring/summer 2021"
+        title="Nueva<br />Colección"
+        subtitle="Otoño/Invierno 2023"
         image={BannerImage}
-        imageAlt="New Collection - Spring/Summer 2021"
+        imageAlt="Nueva colección"
         fullWidth={true}
         overlay={true}
         classNameTitle="text-3xl font-normal tracking-wider leading-tight laptop:text-7xl"
       />
-
       <ProductsShowcase
-        title="New in shoes"
-        indexId="shoes"
-        query="shoes"
+        title="Nuevos brazaletes"
+        indexId="bracelets"
+        query="bracelet"
         hitComponent={ProductCardHitShowcase}
       />
+      <ProductsShowcase
+        title="Nuevos anillos"
+        indexId="rings"
+        query="ring"
+        className="laptop:bg-gray-50"
+        hitComponent={ProductCardHitShowcase}
+      />
+      <ProductsShowcase
+        title="Nuevos collares"
+        indexId="necklaces"
+        query="necklace"
+        hitComponent={ProductCardHitShowcase}
+      />
+      <ProductsShowcase
+        title="Nuevas cadenas"
+        indexId="keychains"
+        query="keychain"
+        className="laptop:bg-gray-50"
+        hitComponent={ProductCardHitShowcase}
+      />
+      {/*
       <ProductsShowcase
         title="Spring/summer 2021"
         indexId="spring-summer-2021"
@@ -45,10 +65,11 @@ export default function Home(props: SearchPageLayoutProps) {
         className="laptop:bg-gray-50"
         hitComponent={ProductCardHitShowcase}
       />
+      */}
       <ProductsShowcase
-        title="Recommended for you"
+        title="Otros productos"
         indexId="recommended"
-        query="jacket"
+        query="accesories"
         hitComponent={ProductCardHitShowcase}
       />
     </SearchPageLayout>

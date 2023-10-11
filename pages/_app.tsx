@@ -42,7 +42,7 @@ export default function App({ Component, pageProps, router }: AppProps) {
   return (
     <AppLayout>
       <Head>
-        <title>Spencer and Williams</title>
+        <title>Faramilu</title>
         <meta
           name="viewport"
           content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"
@@ -69,7 +69,15 @@ export default function App({ Component, pageProps, router }: AppProps) {
       )}
 
       <Banner size="xs-large" className="z-header" fullWidth={true}>
-        20% Off! Code: SPRING21 - Terms apply*
+        Hello! 👋. This is a demo site. Check out the source code
+        <a
+          href="https://github.com/ralo-dev/react-ecommerce"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="ml-1 underline"
+        >
+          Here
+        </a>
       </Banner>
       <Header />
 
