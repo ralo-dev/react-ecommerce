@@ -26,7 +26,9 @@ function RelevantSortComponent({
         className="body-bold underline flex-shrink-0"
         onClick={() => refine(isRelevantSorted ? 0 : undefined)}
       >
-        {isRelevantSorted ? 'Ver todos los resultados' : 'Ver resultados relevantes'}
+        {isRelevantSorted
+          ? 'Ver todos los resultados'
+          : 'Ver resultados relevantes'}
       </Button>
     </Pill>
   )

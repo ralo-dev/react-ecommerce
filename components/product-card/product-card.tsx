@@ -129,8 +129,8 @@ export function ProductCard({
             {colors && <ProductColorVariationList colors={colors} />}
             {price && (
               <ProductPrice
-                price={price*5}
-                originalPrice={originalPrice? originalPrice *5 : price *5}
+                price={price * 5}
+                originalPrice={originalPrice ? originalPrice * 5 : price * 5}
                 currency={currency}
               />
             )}

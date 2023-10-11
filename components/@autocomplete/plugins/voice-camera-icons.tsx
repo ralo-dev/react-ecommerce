@@ -1,12 +1,12 @@
-import CropIcon from '@material-design-icons/svg/outlined/crop_free.svg'
-import VoiceIcon from '@material-design-icons/svg/outlined/keyboard_voice.svg'
-import CameraIcon from '@material-design-icons/svg/outlined/photo_camera.svg'
+// import CropIcon from '@material-design-icons/svg/outlined/crop_free.svg'
+// import CameraIcon from '@material-design-icons/svg/outlined/photo_camera.svg'
+// import VoiceIcon from '@material-design-icons/svg/outlined/keyboard_voice.svg'
 import type { Root } from 'react-dom/client'
 import { createRoot } from 'react-dom/client'
 
-import { Icon } from '@/components/@ui/icon/icon'
+// import { Icon } from '@/components/@ui/icon/icon'
 import { createTemplatePlugin } from '@/lib/autocomplete/plugins/createTemplatePlugin'
-import { Button } from '@ui/button/button'
+// import { Button } from '@ui/button/button'
 
 type AutocompleteIconsProps = {
   voice?: boolean
@@ -15,10 +15,11 @@ type AutocompleteIconsProps = {
 
 function AutocompleteIcons({
   voice = true,
-  camera = true,
-}: AutocompleteIconsProps) {
+}: // camera = true,
+AutocompleteIconsProps) {
   return (
     <>
+      {!voice && <span className="w-px h-6 bg-neutral-light"></span>}
       {/*
     <div className="h-full flex gap-1 items-center absolute right-0">
     {voice && (
