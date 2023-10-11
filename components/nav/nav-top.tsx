@@ -31,26 +31,26 @@ export const NavTop = memo(function NavTop() {
           <div className="hidden items-center gap-8 laptop:flex">
             <Link
               href="/support"
-              title="Support"
+              title="Soporte"
               className="can-hover:transition-colors can-hover:hover:text-neutral-dark"
               onClick={(e) => e.preventDefault()}
             >
               <IconLabel
                 icon={HeadsetMicIcon}
-                label="Support"
+                label="Soporte"
                 labelPosition="right"
                 classNameLabel="label-regular"
               />
             </Link>
             <Link
               href="/store-locator"
-              title="Find a store"
+              title="Ver tiendas"
               className="can-hover:transition-colors can-hover:hover:text-neutral-dark"
               onClick={(e) => e.preventDefault()}
             >
               <IconLabel
                 icon={PinDropIcon}
-                label="Find a store"
+                label="Ver tiendas"
                 labelPosition="right"
                 classNameLabel="label-regular"
               />
@@ -92,9 +92,9 @@ export const NavTop = memo(function NavTop() {
 
       <nav className="hidden laptop:block">
         <ul className="hidden gap-6 uppercase laptop:flex">
-          <NavItem label="Women" href="/catalog/Women" />
-          <NavItem label="Men" href="/catalog/Men" />
-          <NavItem label="Accessories" href="/catalog/Accessories" />
+          <NavItem label="Mujer" href="/catalog/Women" />
+          <NavItem label="Hombre" href="/catalog/Men" />
+          <NavItem label="Unisex" href="/catalog/Accessories" />
         </ul>
       </nav>
     </div>

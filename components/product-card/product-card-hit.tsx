@@ -33,8 +33,8 @@ export function ProductCardHitComponent({
     colors: [],
     price: hit.price.value,
     currency: {
-      symbol: hit.price.currency === 'EUR' ? '€' : '$',
-      position: hit.price.currency === 'EUR' ? 'suffix' : 'prefix',
+      symbol: hit.price.currency === 'EUR' ? '$' : '$',
+      position: hit.price.currency === 'EUR' ? 'prefix' : 'prefix',
     },
     rating: hit.reviews.rating,
     reviews: hit.reviews.count,

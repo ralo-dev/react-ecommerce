@@ -23,8 +23,8 @@ export function ProductDetailHit({ hit }: ProductDetailHitProps) {
     reviews: hit.reviews.count,
     price: hit.price.value,
     currency: {
-      symbol: hit.price.currency === 'EUR' ? '€' : '$',
-      position: hit.price.currency === 'EUR' ? 'suffix' : 'prefix',
+      symbol: hit.price.currency === 'EUR' ? '$' : '$',
+      position: hit.price.currency === 'EUR' ? 'prefix' : 'prefix',
     },
   }
 
@@ -34,7 +34,7 @@ export function ProductDetailHit({ hit }: ProductDetailHitProps) {
     product.price = hit.price.discounted_value
 
     product.tags?.push({
-      label: `on sale ${hit.price.discount_level}%`,
+      label: `descuento ${hit.price.discount_level}%`,
       theme: 'on-sale',
     } as ProductTagType)
   }

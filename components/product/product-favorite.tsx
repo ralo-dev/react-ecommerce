@@ -26,7 +26,7 @@ export function ProductFavorite({
     className
   )
   const icon = isFavorite ? FavoriteFillIcon : FavoriteOutlineIcon
-  const text = isFavorite ? 'Remove from favorite' : 'Add to favorite'
+  const text = isFavorite ? 'Quitar de favoritos' : 'Agregar a favoritos'
 
   return (
     <Button className={cn} title={text} onClick={onClick}>

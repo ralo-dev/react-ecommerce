@@ -136,7 +136,7 @@ export function ProductDetail({
         >
           <IconLabel
             icon={ShoppingBagIcon}
-            label="Add to Cart"
+            label="Agregar al carrito"
             labelPosition="right"
             className="gap-3"
             classNameLabel="btn-bold"
@@ -144,8 +144,8 @@ export function ProductDetail({
         </Button>
         {popular && (
           <div className="mt-2">
-            Hurry! This item is{' '}
-            <span className="text-brand-nebula font-bold">selling fast</span>
+            Date prisa! Este artículo se está{' '}
+            <span className="text-brand-nebula font-bold">agotando</span>
           </div>
         )}
         <ul className="flex flex-col gap-3 mt-6">
@@ -159,7 +159,7 @@ export function ProductDetail({
           <li>
             <IconLabel
               icon={SyncIcon}
-              label="90 days return policy"
+              label="Política de devoluciones de 30 días"
               labelPosition="right"
               className="gap-2 text-neutral-dark"
               classNameLabel=""
@@ -169,7 +169,7 @@ export function ProductDetail({
           <li>
             <IconLabel
               icon={ShoppingBagIcon}
-              label="Free shipping for loyalty club members"
+              label="Envío gratis para miembros del club Faramilu"
               labelPosition="right"
               className="gap-2 text-neutral-dark"
               classNameLabel=""
