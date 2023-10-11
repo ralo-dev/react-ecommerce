@@ -13,7 +13,7 @@ export function NoResultsCurrentRefinements() {
   return (
     <li>
       <span className="-ml-1.5">
-        <span>You might also want to remove some filters</span>
+        <span>Tal vez deberías quitar algunos filtros</span>
         <CurrentRefinements className="mt-2" />
       </span>
     </li>

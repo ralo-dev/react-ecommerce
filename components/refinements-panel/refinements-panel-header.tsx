@@ -42,7 +42,7 @@ export function RefinementsPanelHeader() {
           <div className="flex items-center justify-between flex-grow">
             <IconLabel
               icon={FilterIcon}
-              label="Filter &amp; Sort"
+              label="Filtrar y Ordenar"
               labelPosition="right"
               classNameLabel="heading-4"
               classNameIcon="w-8 h-8"
@@ -58,7 +58,7 @@ export function RefinementsPanelHeader() {
           <div className="flex-grow flex items-center justify-between">
             <IconLabel
               icon={FilterIcon}
-              label="Filters"
+              label="Filtros"
               labelPosition="right"
               classNameLabel="body-regular"
               className="gap-1 heading-5"

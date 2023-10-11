@@ -63,9 +63,9 @@ function LoadMoreComponent() {
       className="my-12 gap-4"
       translations={{
         text: ({ nbSeenHits, nbTotalHits }: TextTranslationArgs) =>
-          `You've seen ${nbSeenHits} product${
+          `Has visto ${nbSeenHits} productos${
             nbSeenHits > 1 ? 's' : ''
-          } out of ${nbTotalHits}`,
+          } de ${nbTotalHits}`,
       }}
     />
   )

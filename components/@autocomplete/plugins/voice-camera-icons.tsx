@@ -18,11 +18,13 @@ function AutocompleteIcons({
   camera = true,
 }: AutocompleteIconsProps) {
   return (
+    <>
+      {/*
     <div className="h-full flex gap-1 items-center absolute right-0">
-      {voice && (
-        <Button className="h-full" title="Voice search">
-          <VoiceIcon className="text-2xl" />
-        </Button>
+    {voice && (
+      <Button className="h-full" title="Voice search">
+      <VoiceIcon className="text-2xl" />
+      </Button>
       )}
 
       {camera && (
@@ -35,9 +37,11 @@ function AutocompleteIcons({
             <Icon icon={CropIcon} />
             <Icon icon={CameraIcon} className="text-[0.5em] absolute" />
           </Button>
-        </>
-      )}
-    </div>
+          </>
+          )}
+          </div>
+        */}
+    </>
   )
 }
 

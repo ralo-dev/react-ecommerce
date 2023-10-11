@@ -63,7 +63,7 @@ function RefinementsBarComponent({
             >
               <IconLabel
                 icon={FilterIcon}
-                label="Filter &amp; Sort"
+                label="Filtrar y Ordenar"
                 labelPosition="right"
                 classNameLabel="body-regular"
               />

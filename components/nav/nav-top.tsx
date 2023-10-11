@@ -59,28 +59,28 @@ export const NavTop = memo(function NavTop() {
 
           <div className="flex items-center gap-6 laptop:gap-3">
             <Tablet>
-              <Button title="Stores">
-                <IconLabel icon={PinDropIcon} label="Stores" />
+              <Button title="Tiendas">
+                <IconLabel icon={PinDropIcon} label="Tiendas" />
               </Button>
             </Tablet>
             <Laptop>
-              <Button title="Favorites">
+              <Button title="Favoritos">
                 <IconLabel icon={FavoriteIcon} />
               </Button>
             </Laptop>
 
-            <Button title="Account">
+            <Button title="Cuenta">
               <Tablet>
-                <IconLabel icon={PersonIcon} label="Account" />
+                <IconLabel icon={PersonIcon} label="Cuenta" />
               </Tablet>
               <Laptop>
                 <IconLabel icon={PersonIcon} />
               </Laptop>
             </Button>
 
-            <Button title="Cart">
+            <Button title="Carrito">
               <Tablet>
-                <IconLabel icon={ShoppingBagIcon} label="Cart" />
+                <IconLabel icon={ShoppingBagIcon} label="Carrito" />
               </Tablet>
               <Laptop>
                 <IconLabel icon={ShoppingBagIcon} />

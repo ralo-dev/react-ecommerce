@@ -118,8 +118,8 @@ export function ProductDetail({
         )}
         {price && (
           <ProductPrice
-            price={price}
-            originalPrice={originalPrice}
+            price={price*5}
+            originalPrice={originalPrice? originalPrice *5:price *5}
             currency={currency}
             className="flex-row-reverse items-center justify-end gap-4 not-italic font-bold mt-3"
             classNamePrice="heading-4"

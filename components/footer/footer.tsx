@@ -31,7 +31,7 @@ export const Footer = memo(function Footer() {
       </div>
 
       <div className="bg-brand-black flex flex-col items-center justify-center gap-3 py-8 laptop:py-9">
-        <Link href="/" title="Spencer and Williams">
+        <Link href="/" title="Faramilu">
           <LogoSymbol />
         </Link>
 

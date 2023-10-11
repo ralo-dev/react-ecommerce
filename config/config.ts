@@ -13,7 +13,7 @@ const refinementsLayoutAtom = atom<RefinementLayout>('panel')
 const refinements: Refinement[] = [
   {
     type: 'hierarchical',
-    header: 'Categories',
+    header: 'Categorías',
     label: 'Category',
     isExpanded: true,
     options: {
@@ -26,7 +26,7 @@ const refinements: Refinement[] = [
   },
   {
     type: 'list',
-    header: 'Brands',
+    header: 'Marcas',
     label: 'Brand',
     options: {
       searchable: true,
@@ -35,7 +35,7 @@ const refinements: Refinement[] = [
   },
   {
     type: 'price',
-    header: 'Price',
+    header: 'Precio',
     label: 'Price',
     options: {
       attribute: 'price.value',
@@ -43,7 +43,7 @@ const refinements: Refinement[] = [
   },
   {
     type: 'size',
-    header: 'Sizes',
+    header: 'Tamaños',
     label: 'Size',
     options: {
       attribute: 'available_sizes',
@@ -52,7 +52,7 @@ const refinements: Refinement[] = [
   },
   {
     type: 'color',
-    header: 'Colors',
+    header: 'Colores',
     label: 'Color',
     options: {
       attribute: 'color.filter_group',
@@ -69,7 +69,7 @@ const refinements: Refinement[] = [
   },
   {
     type: 'rating',
-    header: 'Rating',
+    header: 'Valoración',
     label: 'Rating',
     options: {
       attribute: 'reviews.rating',
@@ -78,9 +78,9 @@ const refinements: Refinement[] = [
 ]
 
 const sorts = [
-  { value: indexName, label: 'Most popular', isDefault: true },
-  { value: `${indexName}_price_asc`, label: 'Price Low to High' },
-  { value: `${indexName}_price_desc`, label: 'Price High to Low' },
+  { value: indexName, label: 'Más popular', isDefault: true },
+  { value: `${indexName}_price_asc`, label: 'Precio más bajo a más alto' },
+  { value: `${indexName}_price_desc`, label: 'Precio más alto a más bajo' },
 ]
 
 const breadcrumbAttributes = [
@@ -103,7 +103,7 @@ const setUserToken: SetUserToken = (generatedUserToken, setToken) => {
 }
 
 const autocomplete = {
-  placeholders: ['products', 'articles', 'faq'],
+  placeholders: ['productos', 'tallas', 'marcas'],
   debouncing: 800, // in ms
   detachedMediaQuery: '(max-width: 1439px)',
 }

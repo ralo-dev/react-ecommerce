@@ -94,7 +94,7 @@ export function ProductCard({
           {image && <ProductImage src={image} alt={title} />}
 
           {tags && tags.length > 0 && (
-            <div className="absolute bottom-1 left-1 flex flex-col items-start gap-1">
+            <div className="absolute bottom-1 left-1 flex flex-col items-start gap-1 opacity-80">
               {tags.map((tag) => (
                 <ProductTag
                   key={tag.label}
@@ -129,8 +129,8 @@ export function ProductCard({
             {colors && <ProductColorVariationList colors={colors} />}
             {price && (
               <ProductPrice
-                price={price}
-                originalPrice={originalPrice}
+                price={price*5}
+                originalPrice={originalPrice? originalPrice *5 : price *5}
                 currency={currency}
               />
             )}

@@ -19,7 +19,7 @@ function ViewModesComponent() {
       <div className="laptop:small-bold">Display</div>
 
       <Button
-        title="View products as a grid"
+        title="Ver productos en cuadrícula"
         disabled={viewMode === 'grid'}
         className={classNames('p-3 laptop:p-0', {
           '!text-brand-nebula': viewMode === 'grid',
@@ -29,7 +29,7 @@ function ViewModesComponent() {
         <Icon icon={GridViewIcon} />
       </Button>
       <Button
-        title="View products as a list"
+        title="Ver productos en lista"
         disabled={viewMode === 'list'}
         className={classNames('p-3 laptop:p-0', {
           '!text-brand-nebula': viewMode === 'list',

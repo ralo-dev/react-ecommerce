@@ -42,7 +42,7 @@ export function LoadLess({ hasPrevious, refinePrevious }: LoadLessProps) {
         disabled={isSearchStalled}
         onClick={refinePrevious}
       >
-        {isSearchStalled ? 'Loading' : 'Load previous'}
+        {isSearchStalled ? 'Cargando' : 'Cargar anterior'}
       </Button>
     </div>
   )
